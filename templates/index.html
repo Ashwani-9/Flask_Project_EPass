@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>E-Pass Registration Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <form method = "POST" action="login_Page">
+            <center>
+            <h3>E-Pass Registration Form </h3>
+            <table>
+           <tr>
+               <td><label for="fname">First Name</label></td>
+               <td><input type="text" class="form-control" name = "fname"  placeholder="Enter First Name"></td>
+            </tr>
+               <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td><input type="text" class="form-control" name = "lname"  placeholder="Enter Last Name"></td>
+            </tr>
+           <tr>
+            <td><label for="email">Email</label></td>
+               <td><input type="email" class="form-control" name = "email"  placeholder="Enter Email"></td>
+            </tr>
+                <tr>
+            <td><label for="source_state">Source State</label></td>
+                    <td><input type="text" class="form-control" name = "source_state"  placeholder="Enter State"></td>
+                </tr>
+            <tr>
+                <td><label for="source">Source District</label></td>
+                <td><input type="text" class="form-control" name = "source"  placeholder="Enter District"></td>
+            </tr>
+            <tr>
+                <td><label for="dest_state">Destination State</label></td>
+                <td><input type="text" class="form-control" name = "dest_state"  placeholder="Enter State"></td>
+            </tr>
+            <tr>
+                <td><label for="dest_district">Destination District</label></td>
+                <td><input type="text" class="form-control" name = "dest_district"  placeholder="Enter District"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone</label></td>
+                <td><input type="text" class="form-control" name = "phone"  placeholder="Enter Phone"></td>
+            </tr>
+           <tr>
+               <td><label for="idcard">ID Proof</label></td>
+               <td><input type="text" class="form-control" name = "idcard"  placeholder="Enter ID"></td>
+           </tr>
+            <tr>
+                <td><label for="trip">Date</label></td>
+                <td><input type="date" class="form-control" name = "trip"  placeholder="Enter Date"></td>
+            </tr>
+            </table>
+                </center>
+                <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Submit">
+        </form>
+    </body>
+</html>
